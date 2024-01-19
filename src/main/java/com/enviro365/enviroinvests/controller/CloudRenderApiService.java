@@ -12,7 +12,7 @@ public class CloudRenderApiService {
     public CloudVendor getCloudVendorDetails(String vendorId)
     {
         return cloudVendor;
-//                ("C1", "Sihle", "Address 1" , "12345");df
+//                ("C1", "Sihle", "Address 1" , "12345");dfs
     }
     @PostMapping
     public String createCloudVenderDetails(@RequestBody CloudVendor cloudVendor){
