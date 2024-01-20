@@ -1,0 +1,13 @@
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/repository/InvestorRepository.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/controller/InvestorController.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/service/ProductService.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/controller/ProductController.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/controller/WithdrawalNoticeController.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/entity/Investor.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/service/WithdrawalNoticeService.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/repository/ProductRepository.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/entity/WithdrawalNotice.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/EnviroinvestsApplication.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/service/InvestorService.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/entity/Product.java
+/home/sihlendlovu/Videos/EnviroInvest/src/main/java/com/enviro365/enviroinvests/repository/WithdrawalNoticeRepository.java
