@@ -10,5 +10,5 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     // Custom query method to find products by investor
     List<Product> findByInvestor(Investor investor);
 
-    // Add additional query methods if needed
+
 }
