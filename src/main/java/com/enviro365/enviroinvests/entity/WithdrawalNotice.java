@@ -1,6 +1,5 @@
 package com.enviro365.enviroinvests.entity;
 
-
 import jakarta.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -10,6 +9,7 @@ import java.time.LocalDateTime;
  */
 @Entity
 public class WithdrawalNotice {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long withdrawalId;
@@ -23,4 +23,45 @@ public class WithdrawalNotice {
     private Product product;
 
     // Constructors, getters, and setters
+
+    public WithdrawalNotice() {
+    }
+
+    public WithdrawalNotice(BigDecimal withdrawalAmount, LocalDateTime withdrawalDate, Product product) {
+        this.withdrawalAmount = withdrawalAmount;
+        this.withdrawalDate = withdrawalDate;
+        this.product = product;
+    }
+
+    public Long getWithdrawalId() {
+        return withdrawalId;
+    }
+
+    public void setWithdrawalId(Long withdrawalId) {
+        this.withdrawalId = withdrawalId;
+    }
+
+    public BigDecimal getWithdrawalAmount() {
+        return withdrawalAmount;
+    }
+
+    public void setWithdrawalAmount(BigDecimal withdrawalAmount) {
+        this.withdrawalAmount = withdrawalAmount;
+    }
+
+    public LocalDateTime getWithdrawalDate() {
+        return withdrawalDate;
+    }
+
+    public void setWithdrawalDate(LocalDateTime withdrawalDate) {
+        this.withdrawalDate = withdrawalDate;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
 }

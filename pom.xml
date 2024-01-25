@@ -39,17 +39,15 @@
 
 		<!-- Database Driver (H2 example, replace with your preferred database) -->
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-core</artifactId>
-			<version>5.5.6.Final</version>
+			<groupId>org.hibernate.orm</groupId>
+			<artifactId> hibernate-community-dialects</artifactId>
+
 		</dependency>
 		<dependency>
 			<groupId>org.xerial</groupId>
 			<artifactId>sqlite-jdbc</artifactId>
 			<version>3.34.0</version>
 		</dependency>
-
-
 	</dependencies>
 
 	<build>

@@ -2,23 +2,49 @@ package com.enviro365.enviroinvests.entity;
 
 import jakarta.persistence.*;
 
+import java.math.BigDecimal;
+
 @Entity
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String name;
+
+    private double price;
+
+    // Additional fields...
+    private String description;
     private String type;
-    private double balance;
+    private BigDecimal balance;
 
-    // Constructors, getters, and setters
+    @ManyToOne
+    @JoinColumn(name = "investor_id")
+    private Investor investor;
 
-    // Constructors (if needed)
+    // Constructors
     public Product() {
-        // Default constructor
     }
 
-    // Getters and Setters
+    public Product(String name, double price, String description, Investor investor) {
+        this.name = name;
+        this.price = price;
+        this.description = description;
+        this.investor = investor;
+    }
+
+    // Getters and setters
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+    public BigDecimal getBalance() {
+        return balance;
+    }
     public Long getId() {
         return id;
     }
@@ -35,19 +61,35 @@ public class Product {
         this.name = name;
     }
 
-    public String getType() {
-        return type;
+    public double getPrice() {
+        return price;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setPrice(double price) {
+        this.price = price;
     }
 
-    public double getBalance() {
-        return balance;
+    public String getDescription() {
+        return description;
     }
 
-    public void setBalance(double balance) {
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Investor getInvestor() {
+        return investor;
+    }
+
+    public void setInvestor(Investor investor) {
+        this.investor = investor;
+    }
+
+    public void setBalance(BigDecimal balance) {
         this.balance = balance;
     }
+
+    // toString, equals, and hashCode methods can be added as needed.
+
+    // You can also add other methods as per your requirements.
 }

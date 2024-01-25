@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bde09880-a540-4568-89c5-dea2cd06a736" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/enviro365_investments.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/Database/DbConnect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/enviroinvests.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/Investor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/Investor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/WithdrawalNotice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/WithdrawalNotice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/repository/WithdrawalNoticeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/repository/WithdrawalNoticeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
