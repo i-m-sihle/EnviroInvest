@@ -1,6 +1,7 @@
 package com.enviro365.enviroinvests.service;
 
 import com.enviro365.enviroinvests.entity.Investor;
+import com.enviro365.enviroinvests.entity.WithdrawalNotice;
 import com.enviro365.enviroinvests.repository.InvestorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -46,5 +47,11 @@ public class InvestorService {
 
     public void deleteInvestor(Long investorId) {
         investorRepository.deleteById(investorId);
+    }
+
+    public List<WithdrawalNotice> getWithdrawalNoticesForInvestor(Long investorId) {
+        // Assuming you have a service method that retrieves withdrawal notices by investorId
+        WithdrawalNoticeService withdrawalNoticeService = new WithdrawalNoticeService();
+        return withdrawalNoticeService.getWithdrawalNoticesByInvestorId(investorId);
     }
 }

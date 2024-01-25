@@ -22,15 +22,20 @@ public class WithdrawalNotice {
     @JoinColumn(name = "product_id")
     private Product product;
 
+    @ManyToOne
+    @JoinColumn(name = "investor_id")
+    private Investor investor;
+
     // Constructors, getters, and setters
 
     public WithdrawalNotice() {
     }
 
-    public WithdrawalNotice(BigDecimal withdrawalAmount, LocalDateTime withdrawalDate, Product product) {
+    public WithdrawalNotice(BigDecimal withdrawalAmount, LocalDateTime withdrawalDate, Product product, Investor investor) {
         this.withdrawalAmount = withdrawalAmount;
         this.withdrawalDate = withdrawalDate;
         this.product = product;
+        this.investor = investor;
     }
 
     public Long getWithdrawalId() {
@@ -64,4 +69,13 @@ public class WithdrawalNotice {
     public void setProduct(Product product) {
         this.product = product;
     }
+
+    public Investor getInvestor() {
+        return investor;
+    }
+
+    public void setInvestor(Investor investor) {
+        this.investor = investor;
+    }
 }
+

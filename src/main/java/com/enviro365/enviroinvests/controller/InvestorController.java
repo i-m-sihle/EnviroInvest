@@ -1,6 +1,7 @@
 package com.enviro365.enviroinvests.controller;
 
 import com.enviro365.enviroinvests.entity.Investor;
+import com.enviro365.enviroinvests.entity.WithdrawalNotice;
 import com.enviro365.enviroinvests.service.InvestorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -25,6 +26,12 @@ public class InvestorController {
     public ResponseEntity<Investor> getInvestorById(@PathVariable Long investorId) {
         Investor investor = investorService.getInvestorById(investorId);
         return ResponseEntity.ok(investor);
+    }
+
+    @GetMapping("/{investorId}/withdrawal-notices")
+    public ResponseEntity<List<WithdrawalNotice>> getWithdrawalNoticesForInvestor(@PathVariable Long investorId) {
+        List<WithdrawalNotice> withdrawalNotices = investorService.getWithdrawalNoticesForInvestor(investorId);
+        return ResponseEntity.ok(withdrawalNotices);
     }
 
     @PostMapping
