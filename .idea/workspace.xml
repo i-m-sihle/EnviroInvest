@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bde09880-a540-4568-89c5-dea2cd06a736" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/repository/WithdrawalNoticeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/db.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/enviro365_investments.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/Database/DbConnect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/enviroinvests.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/EnviroinvestsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/EnviroinvestsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/controller/InvestorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/controller/InvestorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/controller/WithdrawalNoticeController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/Investor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/Investor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/WithdrawalNotice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/entity/WithdrawalNotice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/repository/InvestorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/repository/InvestorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/repository/WithdrwalNoticeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/service/InvestorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/service/InvestorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/service/WithdrawalNoticeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/service/WithdrawalNoticeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,7 +65,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/sihlendlovu/Desktop/jhb21_brownfields_jennifer_hyman",
+    "last_opened_file_path": "/home/sihlendlovu/Videos/EnviroInvest",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -79,6 +75,19 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="EnviroinvestsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.enviro365.enviroinvests.EnviroinvestsApplication" />
+      <module name="enviroinvests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.enviro365.enviroinvests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="EnviroInvest" />
       <method v="2">
@@ -92,6 +101,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EnviroinvestsApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,5 +128,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/enviro365/enviroinvests/EnviroinvestsApplication.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,9 +1,7 @@
 package com.enviro365.enviroinvests.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+
+import jakarta.persistence.*;
 
 @Entity
 public class Investor {
